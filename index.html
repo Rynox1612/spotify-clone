@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="icon/logo.png">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" /><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" /><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" /><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" /><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" /><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=home" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=search" />
+</head>
+<body>
+    <div class="main">
+
+        <div class="sidebar_menu">
+            <div class="nav_options">
+                <div class="nav_home">
+                    <i class="fa-solid fa-house"></i>
+                    <a>Home</a>
+                </div>
+                <div class="nav_search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a>Search</a>
+                </div>
+            </div>
+
+            <div class="lib_nav">
+                <div class="library">
+                    <div class="your_library nav_search">
+                        <img src="icon/library_icon.png" >
+                        <a>Your Library</a>
+                    </div>
+                    <div class="icons">
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>  
+                <div class="boxes">
+                    <div class="box1">
+                        <p style="font-weight: 500;">Want to create your own playlist ?</p>
+                        <P style="opacity: .9;">Its easy ,let us help.</P>
+                        <button class="badge">Create now</button>
+                    </div>
+                    <div class="box2 box1 ">
+                        <p style="font-weight: 500;">Let's find some podcast to follow.</p>
+                        <p style="opacity: .9;">we'll keep you updated on new episodes.</p>
+                        <button class="badge2 badge">Browse podcast</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="main_content">
+            <div style="background-color: black; position: sticky; top: 0;">
+                <div class="sticky_nav">
+                    <img src="icon/backward_icon.png"  style="height: 1.5rem;">
+                    <img src="icon/forward_icon.png"  style="height: 1.5rem;" class="forward_arrow">
+                    <button class="badge3 badge">Explore Premium</button>
+                    <button class="badge4 badge"><i class="fa-regular fa-circle-down"></i> Install app</button>
+                    <i class="fa-regular fa-user  nav_item "></i>
+                </div>
+            </div>
+            
+            <div class="cards">
+                <h2>Recently played</h2>
+                <div class="card_container">
+                    <div class="card">
+                        <img src="image/card1img.jpeg" class="card_img">
+                        <p class="card_title">Top 50-Global</p>
+                        <p class="card_info">Your daily update of the most played ...</p>
+                    </div> 
+                </div>
+
+                <h2>Trending near you </h2>
+                <div class="card_container">
+                    <div class="card">
+                        <img src="image/card2img.jpeg" class="card_img">
+                        <p class="card_title">Mahiye jinna sona</p>
+                        <p class="card_info">song &middot; <span class="artist">Darshan Raval</span></p>
+                    </div> 
+                    <div class="card">
+                        <img src="image/card3img.jpeg" class="card_img">
+                        <p class="card_title">Mere pass tum ho</p>
+                        <p class="card_info">song &middot;<span class="artist">Rahat Fateih Ali Khan</span></p>
+                    </div> 
+                    <div class="card">
+                        <img src="image/card4img.jpeg" class="card_img">
+                        <p class="card_title">Naa ready</p>
+                        <p class="card_info">song &middot; <span class="artist">Anirudh Ravichander</span>,<span class="artist">Vijay</span>,<span class="artist">Asal Kolaar</span></p>
+                    </div> 
+                </div>
+
+                <h2>Featured Charts</h2>
+                <div class="card_container">
+                    <div class="card">
+                        <img src="image/card5img.jpeg" class="card_img">
+                        <p class="card_title">Top songs - global</p>
+                        <p class="card_info">Your most played songs of this week .You must checkout....</p>
+                    </div> 
+                    <div class="card">
+                        <img src="image/card6img.jpeg" class="card_img">
+                        <p class="card_title">Top songs - India</p>
+                        <p class="card_info">Your most played national songs of this week .You must ....</p>
+                    </div> 
+                    <div class="card">
+                        <img src="image/card1img.jpeg" class="card_img">
+                        <p class="card_title">Top 50-Global</p>
+                        <p class="card_info">Your daily update of the most played ...</p>
+                    </div> 
+                </div>
+                <div class="footer">
+                    <div class="line"></div>
+                </div>
+            </div>
+        </div>
+        <div class="music_player">
+            <div class="album">
+                <div class="image">
+                    <img src="image/album_picture.jpeg">
+                </div>
+                <div class="info">
+                    <a> Lost love paradise.(Lo-Fi)</a>
+                    <br>
+                    <a style="opacity: .7;">Patrick Watson</a>
+                </div>
+                <div class="add_icon">
+                    <img src="icon/icons8-plus-24.png" class="change player_option add_to_playlist"/>
+                </div>
+            </div>
+            <div class="player">
+                <div class="player_options">
+                    <div class="player_option1">
+                        <img src="icon/player_icon1.png" class="mode player_option ">
+                        <img src="icon/player_icon2.png" class="change  player_option ">
+                    </div>
+                    <div class="player_option2">
+                        <img src="icon/player_icon3.png" class="play player_option ">
+                    </div>
+                    <div class="player_option3">
+                        <img src="icon/player_icon4.png" class="change player_option ">
+                        <img src="icon/player_icon5.png" class="mode player_option ">
+                    </div>
+                </div>
+                <div class="player_bar">
+                    <span class="curr_time">00:00</span>
+                    <input type="range" class="playback_bar" min="00" max="100" step="1">
+                    <!-- CONTAINS -WEBKIT-SLIDER-THUMB,-MOZ-RANGE-THUMB,-MS-THUMB -->
+                    <!-- AND -->
+                     <!-- -WEKIT-SLIDER-RUNNABLE-TRACK,-MOZ-RANGE-TRACK,-MS-TRACK -->
+
+                    <span class="total_time">03:33</span>
+                </div>
+            </div>
+            <div class="control">
+                <img src="icon/controls_icon1.png" class=" change control_option">
+                <img src="icon/controls_icon2.png" class=" change control_option">
+                <img src="icon/controls_icon3.png" class=" change control_option1">
+                <img src="icon/controls_icon4.png" class=" change control_option1">
+                <img src="icon/controls_icon5.png" class=" change control_option">
+                <input type="range" min="0" max="100" class="sound_bar">
+                <img src="icon/album_icon2.png"  class=" change control_option">
+                <img src="icon/full-screen-24.png"  class=" change control_option1">
+            </div>
+        </div>
+
+    </div>
+
+    
+</body>
+</html>
